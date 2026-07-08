@@ -1,6 +1,6 @@
 # Connectors
 
-WanderPlan is built around official, publicly available travel connectors.
+Travel Concierge is built around official, publicly available travel connectors.
 They are declared in `.mcp.json` and matched by name to Claude's connector
 directory — on first use each service will ask you to authorise it. You do
 not need all of them: skills use whatever relevant connectors are available
@@ -34,4 +34,4 @@ different providers, connect them in Claude and mention them in conversation
 
 ## Privacy
 
-WanderPlan never stores payment details or passport numbers in its files.
+Travel Concierge never stores payment details or passport numbers in its files.

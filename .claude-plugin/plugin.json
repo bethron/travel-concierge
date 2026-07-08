@@ -1,13 +1,15 @@
 {
-  "name": "wanderplan",
+  "name": "travel-concierge",
   "version": "0.2.0",
-  "description": "A one-stop travel companion: full trip planning (flights, stays, activities, dining, itineraries, budgets, packing lists, calendar sync, polished exports) plus an on-trip concierge for spontaneous plans, rides, tables and delivery — powered by 17 official travel connectors.",
+  "description": "A one-stop travel companion: full trip planning (flights, stays, activities, dining, itineraries, budgets, packing lists, calendar sync, polished exports) plus an on-trip concierge for spontaneous plans, rides, tables and delivery \u2014 powered by 17 official travel connectors.",
   "author": {
-    "name": "WanderPlan"
+    "name": "Travel Concierge"
   },
   "license": "MIT",
   "keywords": [
     "travel",
+    "travel-concierge",
+    "trip-planner",
     "itinerary",
     "trip-planning",
     "flights",
@@ -15,7 +17,11 @@
     "activities",
     "dining",
     "concierge",
+    "travel-assistant",
+    "travel-companion",
     "booking",
-    "holiday"
+    "holiday",
+    "vacation",
+    "claude-plugin"
   ]
 }

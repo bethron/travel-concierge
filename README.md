@@ -1,6 +1,6 @@
-# WanderPlan ✈️
+# Travel Concierge ✈️
 
-**A one-stop travel companion in a Claude plugin.** WanderPlan plans complete
+**A one-stop travel companion in a Claude plugin.** Travel Concierge plans complete
 trips for individual travellers — flights, stays, activities and dining
 searched live through official connectors, assembled into a day-by-day
 itinerary you refine in chat — and then stays with you **during** the trip as
@@ -57,7 +57,7 @@ changes.
 
 ## Connectors
 
-WanderPlan uses **17 official, publicly available connectors** — no API keys
+Travel Concierge uses **17 official, publicly available connectors** — no API keys
 to manage; each prompts you to sign in on first use:
 
 Booking.com · Expedia · Super.com · lastminute.com · DirectBooker ·
@@ -75,16 +75,16 @@ reserve) versus search-only.
 **Claude Code / Cowork (from this repo as a marketplace):**
 
 ```
-/plugin marketplace add <your-github-user>/wanderplan
-/plugin install wanderplan
+/plugin marketplace add <your-github-user>/travel-concierge
+/plugin install travel-concierge
 ```
 
-**Or from a packaged file:** download `wanderplan.plugin` from Releases and
+**Or from a packaged file:** download `travel-concierge.plugin` from Releases and
 open it in Claude Cowork.
 
 ## How a trip is organised
 
-WanderPlan keeps everything in files in your working folder, so the same
+Travel Concierge keeps everything in files in your working folder, so the same
 context serves you from first idea to final day of the trip:
 
 ```
@@ -108,6 +108,12 @@ travel/
 - Visa and entry requirements are verified by search per your nationality —
   always double-check the official source linked.
 - No payment details or passport numbers are ever stored in the trip files.
+
+## Publishing tips
+
+For GitHub search visibility, add these repository **topics** after pushing:
+`claude-plugin`, `travel`, `travel-concierge`, `trip-planner`, `itinerary`,
+`travel-assistant`, `claude`, `mcp`.
 
 ## Licence
 

@@ -7,7 +7,7 @@ description: >
   holiday", "we're thinking of visiting", "organise a week in", or even a bare
   destination with dates. Use it even if the user only mentions one part
   (e.g. "find me a hotel in Rome") but has no trip in progress, because this
-  skill sets up the trip workspace that every other WanderPlan skill relies on.
+  skill sets up the trip workspace that every other Travel Concierge skill relies on.
 metadata:
   version: "0.1.0"
 ---
@@ -102,7 +102,7 @@ Once the plan settles, proactively offer (do not force):
 - Putting the trip in Google Calendar (`sync-calendar`)
 - Saving preferences for next time (`traveller-profile`)
 
-Mention once that WanderPlan stays useful **during** the trip: same-day
+Mention once that Travel Concierge stays useful **during** the trip: same-day
 plans, rides, tables, delivery and replanning are handled by the
 `on-trip-concierge` skill in the same workspace.
 
