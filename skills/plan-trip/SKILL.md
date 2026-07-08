@@ -3,7 +3,9 @@ name: plan-trip
 description: >
   This skill should be used whenever the user wants to plan a trip, holiday,
   vacation, getaway, honeymoon, city break, weekend away or any travel of any
-  kind — phrases like "plan a trip to", "I want to go to", "help me plan a
+  kind — including business travel: "business trip to", "work trip", "I have
+  a conference in", "client meetings in", "flying out for work". Trigger on
+  phrases like "plan a trip to", "I want to go to", "help me plan a
   holiday", "we're thinking of visiting", "organise a week in", or even a bare
   destination with dates. Use it even if the user only mentions one part
   (e.g. "find me a hotel in Rome") but has no trip in progress, because this
@@ -91,6 +93,26 @@ Hand over to the `manage-itinerary` skill to draft `itinerary.md` and refine
 it in conversation. Keep the day-by-day plan realistic: respect opening hours,
 travel time between places, jet lag on day one, and the traveller's stated
 pace.
+
+## Business trip mode
+
+When the trip is for work (template, phrasing, or a conference/meeting is
+mentioned), the plan inverts: **commitments anchor everything else.**
+
+- Get the fixed points first — meeting or conference dates, times and venue
+  addresses — before searching anything.
+- Flights are chosen for schedule reliability and arrival buffers (arrive
+  the evening before a morning meeting), not lowest price; stays are chosen
+  for distance to the venue, workspace and Wi-Fi; use loyalty programmes
+  from the traveller profile or Otto Travel.
+- Ask about company constraints: a per-night or total policy cap, preferred
+  airlines/chains, and whether receipts matter — if so, have `trip-budget`
+  keep an itemised, expense-report-friendly log.
+- Offer `sync-calendar` early, not at the end — business travellers live in
+  their calendar.
+- Ask once whether to bolt on leisure ("bleisure"): extend the stay a day or
+  two and plan the free evenings with `find-activities` and `find-dining`
+  (client dinners via Resy are `find-dining`'s job too).
 
 ## Step 5 — Wrap up
 

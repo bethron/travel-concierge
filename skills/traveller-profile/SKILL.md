@@ -30,6 +30,9 @@ at the end of a first trip plan), and never nag if declined.
 - **Flight preferences:** direct where possible; aisle seat
 - **Stay preferences:** central location over size; breakfast included
 - **Dietary needs:** vegetarian
+- **Loyalty programmes:** BA Executive Club 12345; Wyndham Rewards 67890
+- **Business travel:** company cap £180/night; prefers direct flights;
+  receipts always needed
 - **Accessibility / medical:** —
 - **Loves:** markets, hiking, live music
 - **Avoids:** early starts, coach tours

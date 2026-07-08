@@ -45,5 +45,9 @@ plan to the traveller's ceiling.
   offering one or two concrete cheaper swaps.
 - When asked "what's left", answer with headroom and the biggest remaining
   unpriced items.
+- **Business trips with receipts needed**: keep every line itemised with
+  date, vendor and amount so the table doubles as an expense-report draft;
+  separate any personal ("bleisure") spend into its own section so it never
+  mixes with reclaimable costs.
 - Present spend visually when helpful (category breakdown as a simple table
   or chart where the interface supports it).

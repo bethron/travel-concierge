@@ -55,5 +55,9 @@ reservations, state real availability from Resy before recommending a time.
 - Dietary requirements are non-negotiable filters — verify the venue can
   cater to them rather than assuming.
 - Mention dress codes or long waits when the source flags them.
+- **Client or team dinners**: private-dining or quieter venues suited to
+  conversation, near the venue or the client's side of town; confirm the
+  business occasion so Resy notes it, and log the spend itemised for
+  expenses.
 - For planning-stage requests, pencil suggestions into the itinerary as 💡
   rather than booking weeks of dinners nobody asked for.

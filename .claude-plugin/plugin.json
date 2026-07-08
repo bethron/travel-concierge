@@ -1,7 +1,7 @@
 {
   "name": "travel-concierge",
-  "version": "0.2.0",
-  "description": "A one-stop travel companion: full trip planning (flights, stays, activities, dining, itineraries, budgets, packing lists, calendar sync, polished exports) plus an on-trip concierge for spontaneous plans, rides, tables and delivery \u2014 powered by 17 official travel connectors.",
+  "version": "0.3.0",
+  "description": "A one-stop travel companion for leisure and business trips: full trip planning (flights, stays, activities, dining, itineraries, budgets, packing lists, calendar sync, polished exports) plus an on-trip concierge for spontaneous plans, rides, tables and delivery \u2014 powered by 17 official travel connectors.",
   "author": {
     "name": "Travel Concierge"
   },
@@ -22,6 +22,9 @@
     "booking",
     "holiday",
     "vacation",
-    "claude-plugin"
+    "claude-plugin",
+    "business-travel",
+    "corporate-travel",
+    "bleisure"
   ]
 }

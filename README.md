@@ -1,7 +1,7 @@
 # Travel Concierge ✈️
 
 **A one-stop travel companion in a Claude plugin.** Travel Concierge plans complete
-trips for individual travellers — flights, stays, activities and dining
+trips for individual travellers — leisure and business — flights, stays, activities and dining
 searched live through official connectors, assembled into a day-by-day
 itinerary you refine in chat — and then stays with you **during** the trip as
 a concierge for spontaneous plans, rides, tables, delivery and last-minute
@@ -12,8 +12,13 @@ changes.
 **Before the trip**
 
 - **Plan a whole trip** from a quick-start template (city break, beach,
-  adventure, honeymoon…) plus a short interview — or just say "plan me a week
-  in Lisbon".
+  adventure, honeymoon, business trip…) plus a short interview — or just say
+  "plan me a week in Lisbon".
+- **Business travel** gets its own mode: meetings anchor the schedule,
+  flights are picked for reliability and buffers, hotels for distance to the
+  venue, loyalty programmes applied, calendar synced early, costs kept
+  itemised for expenses — with an optional "bleisure" extension for the free
+  days.
 - **Search live prices** for flights (Kiwi.com, Expedia, Ryanair, Otto
   Travel), stays (Booking.com, Expedia, Super.com, lastminute.com,
   DirectBooker, Wyndham, Otto Travel) and activities (Viator, Veltra,
@@ -27,7 +32,7 @@ changes.
   overshoot; get tailored **packing lists** and pre-trip checklists.
 - **Sync to Google Calendar** and **export** a polished Word or PDF itinerary.
 
-**During the trip**
+**During the trip** (leisure or business)
 
 - "We have a free afternoon — what's near us?" → same-day options from
   lastminute.com, Viator and Veltra, trails from AllTrails, all checked
@@ -42,7 +47,7 @@ changes.
 
 | Skill | Say things like |
 |---|---|
-| `plan-trip` | "Plan a week in Japan in October" |
+| `plan-trip` | "Plan a week in Japan in October", "business trip to Berlin, meetings Tue–Wed" |
 | `find-flights` | "Cheapest flights Manchester to Faro in June" |
 | `find-stays` | "Find a hotel near the old town under £120 a night" |
 | `find-activities` | "What should we do in Kyoto? We love food and hiking" |

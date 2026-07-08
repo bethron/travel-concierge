@@ -15,12 +15,17 @@ traveller override any of them.
 | Honeymoon / romantic | 5–10 nights | Slow | Special stays, memorable moments | Splurge stay, 1 signature experience |
 | Backpacking / budget | 7–14 nights | Flexible | Value, spontaneity | Cheapest flights (Ryanair/Kiwi), budget stays, free sights |
 | Multi-city | 7–14 nights | Brisk | 2–3 cities, transport between | Open-jaw flights, 2–3 night blocks per city |
+| Business trip | per meetings | Efficient | Meetings first, minimal friction | Reliable flight times, hotel near the venue, calendar sync, itemised costs |
 | Surprise me | traveller's dates | Moderate | Balanced sampler | Balanced mix; propose 2 destination ideas if none given |
 
 ## Template application rules
 
 - Templates set defaults for pace, stay type and activity density only —
   never budget level. Ask budget separately.
+- **Business trip** switches the interview to the business branch (see the
+  interview guide): meetings and venue first, policy cap instead of a
+  holiday budget, receipts question, and a single "extend for leisure?"
+  offer. Tone stays efficient — fewer options, faster decisions.
 - Combine templates when the traveller mixes them ("relaxing city break") by
   taking the slower pace and the union of emphases.
 - For "Surprise me" with no destination: ask origin, dates and budget, then

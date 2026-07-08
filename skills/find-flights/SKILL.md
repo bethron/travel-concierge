@@ -72,3 +72,8 @@ distance) and fare types that exclude cabin bags.
 - Always state prices with currency and whether they are per person or total.
 - Quote the fare rules the connector returns; never invent baggage allowances.
 - Prices move: note that quotes were live at search time.
+- **Business trips**: weight schedule reliability, direct routings and
+  arrival buffers (evening before a morning meeting) over lowest price;
+  respect any company policy in `trip-brief.md` and apply loyalty programmes
+  via Otto Travel. Otto can also book for managed travellers (colleagues)
+  where authorised — confirm the traveller identity before booking.

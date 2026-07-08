@@ -65,7 +65,11 @@ Comparison table of 3–6 options:
 |---|---|---|---|---|---|---|---|
 
 Follow with one clear recommendation and why, plus one budget-saver and one
-splurge alternative when the spread allows. Flag non-refundable rates, city
+splurge alternative when the spread allows. For **business trips**, rank by
+distance to the meeting venue first, then workspace, Wi-Fi and breakfast;
+respect the policy cap from `trip-brief.md` and favour chains where the
+traveller holds loyalty status (e.g. Wyndham brand-direct, or programmes
+stored in Otto Travel). Flag non-refundable rates, city
 taxes not included, and locations far from the planned activities.
 
 ## After the choice
