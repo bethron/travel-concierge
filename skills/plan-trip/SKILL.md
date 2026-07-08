@@ -72,8 +72,10 @@ Search using the official connectors, delegating to the specialised skills:
    times anchor arrival/departure days.
 2. **Stays second** (`find-stays` skill — Booking.com, Super.com) once dates
    are firm.
-3. **Activities third** (`find-activities` skill — Veltra Activities,
-   Super.com experiences) to fill the days.
+3. **Activities third** (`find-activities` skill — Viator, Veltra
+   Activities, Super.com, AllTrails) to fill the days.
+4. **Dining as wanted** (`find-dining` skill — Resy, Tripadvisor) for
+   must-book restaurants; casual meals stay as itinerary suggestions.
 
 Present comparison tables for each category (see the individual skills for
 formats), record the traveller's picks in `trip-brief.md`, and log every
@@ -97,7 +99,12 @@ Once the plan settles, proactively offer (do not force):
 - Budget summary vs the ceiling (`trip-budget`)
 - Packing list and pre-trip checklist (`trip-checklists`)
 - A polished Word/PDF itinerary to download (`export-itinerary`)
+- Putting the trip in Google Calendar (`sync-calendar`)
 - Saving preferences for next time (`traveller-profile`)
+
+Mention once that WanderPlan stays useful **during** the trip: same-day
+plans, rides, tables, delivery and replanning are handled by the
+`on-trip-concierge` skill in the same workspace.
 
 ## Principles
 

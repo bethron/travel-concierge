@@ -12,20 +12,31 @@ metadata:
 
 # Find Activities
 
-Search bookable tours, tickets and experiences via the **Veltra Activities**
-and **Super.com** connectors, blend in free sights, and match everything to
-the traveller's interests and pace.
+Search bookable tours, tickets, experiences and trails across the activity
+connectors, blend in free sights, and match everything to the traveller's
+interests and pace.
 
 ## Connector strategy
 
+- **Viator** — the broadest experiences catalogue: tours, tickets, day trips.
+  A strong default alongside Veltra; fetch full details for anything
+  shortlisted.
 - **Veltra Activities** — keyword search for tours, classes, day trips and
   experiences. Search per interest ("food tour Kyoto", "snorkelling Bali"),
   not one generic query.
 - **Super.com experiences** — city-level search for bookable attractions,
   tickets and day trips; good for headline sights and skip-the-line tickets.
-- Run both, deduplicate, and complement with web search for free or
-  unbookable highlights (viewpoints, markets, neighbourhoods, beaches) so the
-  plan is not purely commercial.
+- **AllTrails** — the specialist for anything outdoors: hiking, running and
+  cycling trails near a location, trail details, and the trailhead weather
+  forecast. Reach for it whenever the trip template is adventure/outdoors or
+  the traveller mentions walking, hiking or nature.
+- **lastminute.com** — check for experience deals when the trip is imminent
+  or the traveller is already there.
+- **Tripadvisor** — sense-check a shortlisted attraction's reputation when
+  the traveller asks whether it is worth it.
+- Run the relevant sources in parallel, deduplicate, and complement with web
+  search for free or unbookable highlights (viewpoints, markets,
+  neighbourhoods, beaches) so the plan is not purely commercial.
 
 If neither connector is available, ask the user to enable them and continue
 with web-search suggestions clearly marked as not live-bookable.

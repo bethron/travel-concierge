@@ -12,18 +12,27 @@ metadata:
 
 # Find Flights
 
-Search live flight options via the **Kiwi.com** and **Ryanair** connectors and
-present a clear comparison the traveller can decide from.
+Search live flight options via the **Kiwi.com**, **Ryanair**, **Expedia** and
+**Otto Travel** connectors and present a clear comparison the traveller can
+decide from.
 
 ## Connector strategy
 
 - **Kiwi.com** is the general search engine: use it for any route worldwide,
   multi-airline options, and virtual interlining. Default here.
+- **Expedia** — second broad-coverage search; run alongside Kiwi.com and
+  merge, keeping whichever source is cheaper per option.
 - **Ryanair** is best for intra-European budget routes: use its
   cheapest-per-day and cheapest one-way/round-trip tools when the route is in
   Ryanair's network or the traveller is price-first. Its route tools also
   answer "where can I fly from X?" questions.
-- Run both in parallel for European trips and merge results.
+- **Otto Travel** — live bookable inventory, and the only connector that can
+  complete a booking in-chat using the traveller's saved payment method and
+  loyalty programmes. Read its skill guide before first use; apply its stored
+  preferences. Only book after showing the exact fare and getting explicit
+  confirmation.
+- Run the relevant searches in parallel and merge results, noting the source
+  of each option.
 
 If neither connector is available, ask the user to enable them, then fall back
 to web search with a clear "indicative prices only" caveat.
@@ -53,7 +62,10 @@ distance) and fare types that exclude cabin bags.
   `trip-brief.md` and log the cost in `budget.md` (`trip-budget` skill).
 - Anchor the itinerary: day 1 starts after landing, the last day ends before
   the departure airport cut-off.
-- Link to the provider to complete the booking — do not claim it is booked.
+- Link to the provider to complete the booking — or, if the traveller wants
+  it booked now and Otto Travel is connected, book via Otto after explicit
+  confirmation of the exact flight, fare and total, then record the PNR in
+  `trip-brief.md`. Never claim anything else is booked.
 
 ## Care points
 

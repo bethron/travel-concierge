@@ -1,7 +1,7 @@
 {
   "name": "wanderplan",
-  "version": "0.1.0",
-  "description": "Travel agency in a plugin: full trip planning for individual travellers — flights, stays, activities, day-by-day itineraries, budget tracking, packing lists and polished itinerary exports, powered by official travel connectors.",
+  "version": "0.2.0",
+  "description": "A one-stop travel companion: full trip planning (flights, stays, activities, dining, itineraries, budgets, packing lists, calendar sync, polished exports) plus an on-trip concierge for spontaneous plans, rides, tables and delivery — powered by 17 official travel connectors.",
   "author": {
     "name": "WanderPlan"
   },
@@ -13,6 +13,8 @@
     "flights",
     "hotels",
     "activities",
+    "dining",
+    "concierge",
     "booking",
     "holiday"
   ]

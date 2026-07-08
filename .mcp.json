@@ -19,6 +19,54 @@
     "Ryanair": {
       "type": "http",
       "url": "https://services-api.ryanair.com/mcp-server/mcp"
+    },
+    "Expedia": {
+      "type": "http",
+      "url": "https://www.expedia.com/mcp"
+    },
+    "Otto Travel": {
+      "type": "http",
+      "url": "https://api.ottotheagent.com/mcp"
+    },
+    "DirectBooker": {
+      "type": "http",
+      "url": "https://www.directbooker.ai/claude"
+    },
+    "Tripadvisor": {
+      "type": "http",
+      "url": "https://production.ai-mcp-extensibility-prd.tamg.cloud/ogMvjY4De1G7CiHanMOAgddl/mcp"
+    },
+    "Wyndham Hotels and Resorts": {
+      "type": "http",
+      "url": "https://mcp.wyndhamhotels.com/claude/mcp"
+    },
+    "lastminute.com": {
+      "type": "http",
+      "url": "https://mcp.lastminute.com/mcp"
+    },
+    "Viator": {
+      "type": "http",
+      "url": "https://exp-app-mcp.prod.ep.viator.com/mcp"
+    },
+    "AllTrails": {
+      "type": "http",
+      "url": "https://www.alltrails.com/mcp"
+    },
+    "Resy": {
+      "type": "http",
+      "url": "https://apigw.americanexpress.com/dining/v1/mcp"
+    },
+    "Uber": {
+      "type": "http",
+      "url": "https://mcp.uber.com/claude/rides-3p/mcp"
+    },
+    "Uber Eats": {
+      "type": "http",
+      "url": "https://mcp.ubereats.com/eats-claude/mcp"
+    },
+    "Google Calendar": {
+      "type": "http",
+      "url": "https://calendarmcp.googleapis.com/mcp/v1"
     }
   }
 }
