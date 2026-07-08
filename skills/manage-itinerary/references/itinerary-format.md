@@ -31,6 +31,10 @@ diff cleanly when edited, and map directly onto the polished export.
 
 ## Conventions
 
+- **All times are destination-local.** The only exception is a flight's
+  departure time, which is local to the departure airport — mark it, e.g.
+  `(dep 08:55 UK time)`. For multi-city trips spanning time zones, note the
+  zone in each day heading.
 - One bullet per timed item: `**HH:MM** <what> — <detail> <marker>`.
 - Markers: `✈ booked` / `🏨 booked` / `🎟 booked` for confirmed items,
   `💡` for suggestions, `(est. £xx)` for estimated costs, `🌧 Backup:` for the

@@ -16,6 +16,12 @@ metadata:
 Own the living day-by-day plan: draft it, keep it in `itinerary.md`, and
 refine it interactively in conversation.
 
+## Which trip
+
+When multiple trips exist under `travel/trips/`, work on the trip named in
+the conversation; failing that, the one whose dates contain today, then the
+nearest upcoming. Ask rather than guess between two plausible trips.
+
 ## Drafting
 
 Read `trip-brief.md` for chosen flights, stay, activities, pace and must-dos.

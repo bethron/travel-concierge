@@ -60,6 +60,11 @@ changes.
 | `export-itinerary` | "Make a PDF I can send to my partner" |
 | `traveller-profile` | "Remember my home airport is Bristol" |
 
+## Commands
+
+- `/new-trip` — start planning (e.g. `/new-trip Lisbon in September`)
+- `/concierge` — on-trip mode: "we're here, what now?"
+
 ## Connectors
 
 Travel Concierge uses **17 official, publicly available connectors** — no API keys
@@ -70,8 +75,11 @@ Tripadvisor · Wyndham Hotels and Resorts · Otto Travel · Kiwi.com · Ryanair 
 Viator · Veltra Activities · AllTrails · Resy · Uber · Uber Eats ·
 Google Calendar
 
-You don't need them all — skills use whatever is connected and say so when a
-useful one is missing. See [CONNECTORS.md](CONNECTORS.md) for the category
+You don't need them all — and you shouldn't start with them all, or you'll
+face a wall of sign-in prompts. **Start with five**: Booking.com, Kiwi.com,
+Viator, Tripadvisor and Google Calendar cover most trips; connect the rest
+when a skill asks for them (deals, dining, rides, in-chat booking). Skills
+use whatever is connected and say so when a useful one is missing. See [CONNECTORS.md](CONNECTORS.md) for the category
 map, alternatives, and exactly which connectors can act (book, order,
 reserve) versus search-only.
 

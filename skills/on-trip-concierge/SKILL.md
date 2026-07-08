@@ -21,6 +21,9 @@ plans change.
 
 Before suggesting anything, load the trip context so advice fits the moment:
 
+0. **Resolve the active trip**: list `travel/trips/`; pick the trip whose
+   dates contain today; otherwise the nearest upcoming one; if still
+   ambiguous (or none), ask which trip — never guess between two.
 1. Read `itinerary.md` — what is planned today and tomorrow, what is already
    booked (do not double-book over a timed ticket).
 2. Read `trip-brief.md` and `budget.md` — tastes, party, remaining headroom.

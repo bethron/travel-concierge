@@ -34,7 +34,7 @@
     },
     "Tripadvisor": {
       "type": "http",
-      "url": "https://production.ai-mcp-extensibility-prd.tamg.cloud/ogMvjY4De1G7CiHanMOAgddl/mcp"
+      "url": "https://production.ai-mcp-extensibility-prd.tamg.cloud/mcp"
     },
     "Wyndham Hotels and Resorts": {
       "type": "http",

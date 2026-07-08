@@ -24,7 +24,8 @@ completed on the provider's own site. The exceptions, which can act in-chat
 **only after showing the exact item and total and getting your explicit
 confirmation**: Otto Travel (flights and hotels, using your saved payment
 method), Resy (table reservations) and Uber / Uber Eats (rides and food
-orders).
+orders). Otto Travel can also cancel its bookings in-chat — cancellations
+are confirmed the same way, with the refund terms stated first.
 
 ## Alternatives
 
