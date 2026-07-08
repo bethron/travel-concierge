@@ -1,0 +1,19 @@
+{
+  "name": "wanderplan",
+  "version": "0.1.0",
+  "description": "Travel agency in a plugin: full trip planning for individual travellers — flights, stays, activities, day-by-day itineraries, budget tracking, packing lists and polished itinerary exports, powered by official travel connectors.",
+  "author": {
+    "name": "WanderPlan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "travel",
+    "itinerary",
+    "trip-planning",
+    "flights",
+    "hotels",
+    "activities",
+    "booking",
+    "holiday"
+  ]
+}

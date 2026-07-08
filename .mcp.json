@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "Booking.com": {
+      "type": "http",
+      "url": "https://demandapi-mcp.booking.com/v1/mcp"
+    },
+    "Super.com": {
+      "type": "http",
+      "url": "https://www.super.com/travel/mcp"
+    },
+    "Veltra Activities": {
+      "type": "http",
+      "url": "https://ai.veltra.com/veltra/mcp"
+    },
+    "Kiwi.com": {
+      "type": "http",
+      "url": "https://mcp.kiwi.com"
+    },
+    "Ryanair": {
+      "type": "http",
+      "url": "https://services-api.ryanair.com/mcp-server/mcp"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "wanderplan-marketplace",
+  "owner": {
+    "name": "WanderPlan"
+  },
+  "plugins": [
+    {
+      "name": "wanderplan",
+      "source": "./",
+      "description": "Full trip planning for individual travellers — flights, stays, activities, itineraries, budgets, packing lists and polished exports."
+    }
+  ]
+}
