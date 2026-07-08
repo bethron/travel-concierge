@@ -26,11 +26,10 @@ decide from.
   cheapest-per-day and cheapest one-way/round-trip tools when the route is in
   Ryanair's network or the traveller is price-first. Its route tools also
   answer "where can I fly from X?" questions.
-- **Otto Travel** — live bookable inventory, and the only connector that can
-  complete a booking in-chat using the traveller's saved payment method and
-  loyalty programmes. Read its skill guide before first use; apply its stored
-  preferences. Only book after showing the exact fare and getting explicit
-  confirmation.
+- **Otto Travel** — a further live-inventory search source, plus stored
+  travel preferences and loyalty programme numbers to apply to the search.
+  Read its skill guide before first use. Search only: never place a booking
+  through it.
 - Run the relevant searches in parallel and merge results, noting the source
   of each option.
 
@@ -64,10 +63,10 @@ distance) and fare types that exclude cabin bags.
   `trip-brief.md` and log the cost in `budget.md` (`trip-budget` skill).
 - Anchor the itinerary: day 1 starts after landing, the last day ends before
   the departure airport cut-off.
-- Link to the provider to complete the booking — or, if the traveller wants
-  it booked now and Otto Travel is connected, book via Otto after explicit
-  confirmation of the exact flight, fare and total, then record the PNR in
-  `trip-brief.md`. Never claim anything else is booked.
+- Link to the provider to complete the booking. Travel Concierge is
+  search-only by design: it never places bookings or takes payment in-chat,
+  and never claims anything is booked until the traveller says so — then
+  record the confirmed details in `trip-brief.md`.
 
 ## Care points
 
@@ -76,6 +75,6 @@ distance) and fare types that exclude cabin bags.
 - Prices move: note that quotes were live at search time.
 - **Business trips**: weight schedule reliability, direct routings and
   arrival buffers (evening before a morning meeting) over lowest price;
-  respect any company policy in `trip-brief.md` and apply loyalty programmes
-  via Otto Travel. Otto can also book for managed travellers (colleagues)
-  where authorised — confirm the traveller identity before booking.
+  respect any company policy in `trip-brief.md` and surface the loyalty
+  programmes stored in the traveller profile or Otto Travel so the traveller
+  applies them when booking on the provider's site.

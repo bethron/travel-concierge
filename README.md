@@ -24,8 +24,8 @@ changes.
   DirectBooker, Wyndham, Otto Travel) and activities (Viator, Veltra,
   Super.com, AllTrails), with clear side-by-side comparison tables and
   Tripadvisor reviews on tap.
-- **Book must-have tables** via Resy, and — where you choose to — complete
-  flight and hotel bookings in-chat via Otto Travel.
+- **Check real table availability** via Resy for must-book restaurants,
+  then hand you to Resy to place the reservation.
 - **Build an interactive itinerary** you refine conversationally — "move the
   museum to Tuesday", "we land at 2pm now" — kept in a living file.
 - **Track the budget** against your ceiling, with warnings before you
@@ -46,9 +46,11 @@ changes.
 - "We have a free afternoon — what's near us?" → same-day options from
   lastminute.com, Viator and Veltra, trails from AllTrails, all checked
   against what's already planned and the budget that's left.
-- "Get us there" → Uber ride estimates and rides.
-- "We're hungry" → a Resy table nearby, Tripadvisor-checked picks, or Uber
-  Eats to the hotel door.
+- "Get us there" → Uber price and time estimates, then straight into the
+  Uber app to request it.
+- "We're hungry" → a Resy-checked table nearby, Tripadvisor-vetted picks,
+  or what Uber Eats can deliver to the hotel door — order placed by you in
+  the app.
 - "It's raining / the tour got cancelled" → an instant replacement that fits
   the slot, and the itinerary file updated to match reality.
 
@@ -60,7 +62,7 @@ changes.
 | `find-flights` | "Cheapest flights Manchester to Faro in June" |
 | `find-stays` | "Find a hotel near the old town under £120 a night" |
 | `find-activities` | "What should we do in Kyoto? We love food and hiking" |
-| `find-dining` | "Book a table for two on Friday", "order food to the hotel" |
+| `find-dining` | "Find a table for two on Friday", "what can we get delivered?" |
 | `manage-itinerary` | "Swap day 2 and day 3", "show me the plan" |
 | `on-trip-concierge` | "We're here and have a free evening — ideas?" |
 | `trip-budget` | "Are we still under £2,000?" |
@@ -91,10 +93,10 @@ Google Calendar
 You don't need them all — and you shouldn't start with them all, or you'll
 face a wall of sign-in prompts. **Start with five**: Booking.com, Kiwi.com,
 Viator, Tripadvisor and Google Calendar cover most trips; connect the rest
-when a skill asks for them (deals, dining, rides, in-chat booking). Skills
+when a skill asks for them (deals, dining, rides, loyalty). Skills
 use whatever is connected and say so when a useful one is missing. See [CONNECTORS.md](CONNECTORS.md) for the category
-map, alternatives, and exactly which connectors can act (book, order,
-reserve) versus search-only.
+map and alternatives — and the plugin's search-only posture: no connector
+ever spends money in-chat.
 
 ## Installation
 
@@ -128,9 +130,9 @@ travel/
 
 - Prices and availability come live from connectors at search time and can
   change; anything not live-priced is clearly marked as an estimate.
-- Anything that spends money in-chat (Otto Travel bookings, Resy
-  reservations, Uber rides, Uber Eats orders) happens only after the exact
-  item and total are shown and you explicitly confirm.
+- **Search-only by design**: the plugin never books, orders or takes
+  payment in-chat — every purchase is completed by you on the provider's
+  own site or app.
 - Visa and entry requirements are verified by search per your nationality —
   always double-check the official source linked.
 - No payment details or passport numbers are ever stored in the trip files.

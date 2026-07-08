@@ -36,9 +36,9 @@ Price-check and enrich the shortlist:
   use it when the traveller asks "which is actually nicer?"
 - **Wyndham Hotels and Resorts** — brand-direct search and details when the
   traveller favours Wyndham brands or has their loyalty programme.
-- **Otto Travel** — live bookable inventory; the one connector that can book
-  a room in-chat with saved payment and loyalty numbers, after explicit
-  confirmation.
+- **Otto Travel** — a further live-inventory search source with the
+  traveller's stored preferences and hotel loyalty numbers. Search only:
+  never place a booking through it.
 
 When several sources list the same property, show each price with its source.
 If no stay connector is available, ask the user to enable one, then fall back
@@ -79,9 +79,9 @@ taxes not included, and locations far from the planned activities.
 - Record the chosen stay (property, dates, rate, cancellation terms, link) in
   `trip-brief.md`; log the cost in `budget.md`.
 - Note check-in/check-out times for the itinerary's first and last days.
-- Link out for the actual booking — or book in-chat via Otto Travel if the
-  traveller asks, after confirming the exact room, rate, cancellation terms
-  and total. Never claim anything else is booked.
+- Link out for the actual booking — Travel Concierge is search-only by
+  design and never books or takes payment in-chat. Record the details in
+  `trip-brief.md` once the traveller confirms they have booked.
 
 ## Care points
 

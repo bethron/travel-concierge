@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.0
+- Search-only posture adopted throughout: no in-chat bookings, reservations,
+  rides or orders — every purchase is completed on the provider's own site
+  or app. Otto Travel, Resy, Uber and Uber Eats are used for search,
+  availability and estimates only.
+
 ## 0.5.0
 - monitor-fares skill: fare watchlist with on-demand re-checks, price
   history and honest book-or-wait advice; /check-fares command

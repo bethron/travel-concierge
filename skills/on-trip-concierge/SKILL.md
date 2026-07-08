@@ -37,7 +37,7 @@ Before suggesting anything, load the trip context so advice fits the moment:
 | "Something to do right now / tonight" | lastminute.com deals, Viator and Veltra same-day availability, plus free options nearby |
 | "A walk / hike / nature fix" | AllTrails — trails near the current location, with trail weather |
 | "We're hungry" / "book a table" | `find-dining` skill (Resy, Uber Eats, Tripadvisor) |
-| "Get us there" / "how far is it" | Uber — fetch a ride estimate between the two points; offer the ride if wanted |
+| "Get us there" / "how far is it" | Uber — fetch a ride estimate (price, time) between the two points; hand off to the Uber app to request the ride |
 | "Is this place any good?" | Tripadvisor reviews |
 | "We need another night / a room in the next town" | `find-stays` skill, weighting lastminute.com and Super.com for tonight's deals |
 | "Change the plan" | `manage-itinerary` skill — apply the change and resolve knock-ons |

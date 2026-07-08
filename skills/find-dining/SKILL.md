@@ -41,13 +41,16 @@ Two or three options, each one line: name — cuisine and signature dish —
 distance from where they'll be — price band — why this one. For
 reservations, state real availability from Resy before recommending a time.
 
-## Acting
+## Handing off
 
-- **Reserve**: confirm party size, date, time and any occasion, then make the
-  Resy booking and record it in `itinerary.md` with a 🎟 booked marker.
-- **Deliver**: confirm the delivery address (the stay, from `trip-brief.md`,
-  unless told otherwise) before initiating any Uber Eats order, and show the
-  order total before it is placed.
+Travel Concierge is search-only by design — it checks availability and
+menus, then hands the traveller to the provider to complete things:
+
+- **Reserve**: confirm party size, date and time, verify real availability
+  via Resy, then link the traveller to Resy to place the reservation. Once
+  they confirm it is booked, mark it in `itinerary.md` with 🎟 booked.
+- **Deliver**: find what is deliverable to the stay via Uber Eats (dishes,
+  prices, timings), then link to Uber Eats to place the order.
 - Log notable meal spends against the food estimate in `budget.md`.
 
 ## Care points
