@@ -74,6 +74,8 @@ taxes not included, and locations far from the planned activities.
 
 ## After the choice
 
+- Save the comparison table to `options/stays-<date>.md` for the savings
+  summary (`expense-report` skill).
 - Record the chosen stay (property, dates, rate, cancellation terms, link) in
   `trip-brief.md`; log the cost in `budget.md`.
 - Note check-in/check-out times for the itinerary's first and last days.

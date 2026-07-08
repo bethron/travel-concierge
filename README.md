@@ -31,6 +31,15 @@ changes.
 - **Track the budget** against your ceiling, with warnings before you
   overshoot; get tailored **packing lists** and pre-trip checklists.
 - **Sync to Google Calendar** and **export** a polished Word or PDF itinerary.
+- **Watch fares** you're not ready to book — a watchlist re-checked on
+  demand, with honest book-now-or-wait advice from real price history.
+
+**After the trip (or for expenses)**
+
+- **Expense export**: your costs as a proper spreadsheet (with a
+  business/personal split for work trips) — plus a wrap-up of roughly how
+  much money and planning time the plugin saved you, computed from the
+  comparisons it actually ran.
 
 **During the trip** (leisure or business)
 
@@ -55,6 +64,8 @@ changes.
 | `manage-itinerary` | "Swap day 2 and day 3", "show me the plan" |
 | `on-trip-concierge` | "We're here and have a free evening — ideas?" |
 | `trip-budget` | "Are we still under £2,000?" |
+| `monitor-fares` | "Watch this fare and tell me if it drops" |
+| `expense-report` | "Export my expenses", "what did I save?" |
 | `trip-checklists` | "What should I pack?" |
 | `sync-calendar` | "Put the trip in my Google Calendar" |
 | `export-itinerary` | "Make a PDF I can send to my partner" |
@@ -64,6 +75,8 @@ changes.
 
 - `/new-trip` — start planning (e.g. `/new-trip Lisbon in September`)
 - `/concierge` — on-trip mode: "we're here, what now?"
+- `/check-fares` — re-check the fare watchlist
+- `/expense-report` — costs to a spreadsheet, plus your savings summary
 
 ## Connectors
 

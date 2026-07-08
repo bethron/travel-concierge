@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.5.0
+- monitor-fares skill: fare watchlist with on-demand re-checks, price
+  history and honest book-or-wait advice; /check-fares command
+- expense-report skill: .xlsx export with business/personal split, and an
+  auditable end-of-trip savings summary ("you saved roughly £X and Y
+  hours"); /expense-report command
+- Search skills now persist comparison tables to options/ as the savings
+  ledger
+
 ## 0.4.0
 - Devil's-advocate hardening: active-trip resolution rule, destination-local
   time convention, sanitised connector URLs (directory name matching),

@@ -58,6 +58,8 @@ distance) and fare types that exclude cabin bags.
 
 ## After the choice
 
+- Save the comparison table to `options/flights-<date>.md` — it feeds the
+  end-of-trip savings summary (`expense-report` skill).
 - Record the chosen flight (airline, times, price, booking link) in
   `trip-brief.md` and log the cost in `budget.md` (`trip-budget` skill).
 - Anchor the itinerary: day 1 starts after landing, the last day ends before

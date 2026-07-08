@@ -61,6 +61,8 @@ schedules.
 
 ## After the choice
 
+- Save the comparison table to `options/activities-<date>.md` for the
+  savings summary (`expense-report` skill).
 - Slot each chosen activity into `itinerary.md` on a sensible day and time
   (respect opening hours, travel time, meal times, and rest after arrival).
 - Record picks and prices in `trip-brief.md` and `budget.md`.

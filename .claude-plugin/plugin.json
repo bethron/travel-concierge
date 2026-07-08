@@ -1,6 +1,6 @@
 {
   "name": "travel-concierge",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A one-stop travel companion for leisure and business trips: full trip planning (flights, stays, activities, dining, itineraries, budgets, packing lists, calendar sync, polished exports) plus an on-trip concierge for spontaneous plans, rides, tables and delivery \u2014 powered by 17 official travel connectors.",
   "author": {
     "name": "Travel Concierge"
