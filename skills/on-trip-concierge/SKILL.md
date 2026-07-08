@@ -39,6 +39,7 @@ Before suggesting anything, load the trip context so advice fits the moment:
 | "We're hungry" / "book a table" | `find-dining` skill (Resy, Uber Eats, Tripadvisor) |
 | "Get us there" / "how far is it" | Uber — fetch a ride estimate (price, time) between the two points; hand off to the Uber app to request the ride |
 | "Is this place any good?" | Tripadvisor reviews |
+| "Tell us something interesting about here" / quiet downtime | `fun-facts` skill — a fresh one, not already shared this trip |
 | "We need another night / a room in the next town" | `find-stays` skill, weighting lastminute.com and Super.com for tonight's deals |
 | "Change the plan" | `manage-itinerary` skill — apply the change and resolve knock-ons |
 

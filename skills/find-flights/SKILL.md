@@ -30,6 +30,9 @@ decide from.
   travel preferences and loyalty programme numbers to apply to the search.
   Read its skill guide before first use. Search only: never place a booking
   through it.
+- **Turkish Airlines** — brand-direct search when the traveller favours
+  Turkish Airlines or holds Miles&Smiles status, and useful for routes
+  connecting through Istanbul.
 - Run the relevant searches in parallel and merge results, noting the source
   of each option.
 

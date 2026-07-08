@@ -67,6 +67,10 @@
     "Google Calendar": {
       "type": "http",
       "url": "https://calendarmcp.googleapis.com/mcp/v1"
+    },
+    "Turkish Airlines": {
+      "type": "http",
+      "url": "https://mcp-app.turkishtechlab.com/mcp"
     }
   }
 }

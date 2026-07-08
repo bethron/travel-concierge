@@ -66,6 +66,10 @@ party, origin, budget ceiling and currency, style, pace, must-dos, and
 anything to avoid. Every other skill reads this file, so keep it accurate and
 update it when the traveller changes their mind.
 
+Once the destination is confirmed, offer one round of `fun-facts` — a couple
+of "did you know?" lines tailored to the trip's flavour. Keep it brief and
+skippable; this is a garnish, not a gate before searching begins.
+
 ## Step 3 — Search in the right order
 
 Search using the official connectors, delegating to the specialised skills:

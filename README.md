@@ -33,6 +33,9 @@ changes.
 - **Sync to Google Calendar** and **export** a polished Word or PDF itinerary.
 - **Watch fares** you're not ready to book — a watchlist re-checked on
   demand, with honest book-now-or-wait advice from real price history.
+- **Destination fun facts** — surprising "did you know?" nuggets tailored to
+  your trip (foodie facts for a gastronomy trip, trail trivia for an
+  adventure trip), good for downtime and for telling your friends.
 
 **After the trip (or for expenses)**
 
@@ -67,6 +70,7 @@ changes.
 | `on-trip-concierge` | "We're here and have a free evening — ideas?" |
 | `trip-budget` | "Are we still under £2,000?" |
 | `monitor-fares` | "Watch this fare and tell me if it drops" |
+| `fun-facts` | "Did you know anything cool about Kyoto?" |
 | `expense-report` | "Export my expenses", "what did I save?" |
 | `trip-checklists` | "What should I pack?" |
 | `sync-calendar` | "Put the trip in my Google Calendar" |
@@ -82,13 +86,13 @@ changes.
 
 ## Connectors
 
-Travel Concierge uses **17 official, publicly available connectors** — no API keys
+Travel Concierge uses **18 official, publicly available connectors** — no API keys
 to manage; each prompts you to sign in on first use:
 
 Booking.com · Expedia · Super.com · lastminute.com · DirectBooker ·
 Tripadvisor · Wyndham Hotels and Resorts · Otto Travel · Kiwi.com · Ryanair ·
-Viator · Veltra Activities · AllTrails · Resy · Uber · Uber Eats ·
-Google Calendar
+Turkish Airlines · Viator · Veltra Activities · AllTrails · Resy · Uber ·
+Uber Eats · Google Calendar
 
 You don't need them all — and you shouldn't start with them all, or you'll
 face a wall of sign-in prompts. **Start with five**: Booking.com, Kiwi.com,
@@ -136,12 +140,6 @@ travel/
 - Visa and entry requirements are verified by search per your nationality —
   always double-check the official source linked.
 - No payment details or passport numbers are ever stored in the trip files.
-
-## Publishing tips
-
-For GitHub search visibility, add these repository **topics** after pushing:
-`claude-plugin`, `travel`, `travel-concierge`, `trip-planner`, `itinerary`,
-`travel-assistant`, `claude`, `mcp`.
 
 ## Licence
 

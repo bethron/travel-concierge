@@ -10,7 +10,7 @@ and fall back to web search (clearly marked as estimates) otherwise.
 
 | Category | Connectors | Used by skills | Notes |
 |---|---|---|---|
-| Flights | Kiwi.com, Ryanair, Expedia, Otto Travel | `find-flights` | Kiwi.com and Expedia for worldwide search; Ryanair for budget European routes and cheapest-day search; Otto Travel adds live inventory plus stored preferences and loyalty numbers (search only) |
+| Flights | Kiwi.com, Ryanair, Expedia, Otto Travel, Turkish Airlines | `find-flights` | Kiwi.com and Expedia for worldwide search; Ryanair for budget European routes; Turkish Airlines for brand-direct search and routes via Istanbul; Otto Travel adds live inventory plus stored preferences and loyalty numbers (search only) |
 | Stays | Booking.com, Expedia, Super.com, lastminute.com, DirectBooker, Tripadvisor, Wyndham Hotels and Resorts, Otto Travel | `find-stays` | Booking.com/Expedia primary; Super.com and lastminute.com for deals; DirectBooker compares direct rates; Tripadvisor for reviews; Wyndham brand-direct; Otto Travel adds live inventory and loyalty numbers (search only) |
 | Activities | Viator, Veltra Activities, Super.com, AllTrails, lastminute.com, Tripadvisor | `find-activities`, `on-trip-concierge` | Viator/Veltra for tours and experiences; AllTrails for hiking and outdoors (incl. trail weather); lastminute.com for imminent deals |
 | Dining | Resy, Uber Eats, Tripadvisor | `find-dining`, `on-trip-concierge` | Resy for reservations, Uber Eats for delivery, Tripadvisor for reviews |

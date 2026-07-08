@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.0
+- fun-facts skill: surprising "did you know?" destination trivia, tailored
+  to the trip's flavour (gastronomy, adventure, culture, family, business);
+  offered once when a destination is set and on-trip during downtime
+- Added Turkish Airlines connector (brand-direct search, Istanbul routings)
+- Removed "Publishing tips" section from README (redundant with submission
+  guides)
+
 ## 0.6.0
 - Search-only posture adopted throughout: no in-chat bookings, reservations,
   rides or orders — every purchase is completed on the provider's own site

@@ -1,7 +1,7 @@
 {
   "name": "travel-concierge",
-  "version": "0.6.0",
-  "description": "A one-stop travel companion for leisure and business trips: full trip planning (flights, stays, activities, dining, itineraries, budgets, fare watching, packing lists, calendar sync, expense exports) plus an on-trip concierge for spontaneous plans \u2014 search-only by design, powered by 17 official travel connectors.",
+  "version": "0.7.0",
+  "description": "A one-stop travel companion for leisure and business trips: full trip planning (flights, stays, activities, dining, itineraries, budgets, fare watching, packing lists, calendar sync, expense exports, destination fun facts) plus an on-trip concierge for spontaneous plans \u2014 search-only by design, powered by 18 official travel connectors.",
   "author": {
     "name": "Travel Concierge"
   },
