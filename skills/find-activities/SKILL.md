@@ -72,5 +72,7 @@ schedules.
 
 - Check seasonal availability — do not schedule an activity outside its
   operating season or hours as returned by the connector.
-- Warn about weather-dependent activities and suggest a rainy-day backup.
+- Warn about weather-dependent activities and suggest a rainy-day backup —
+  check the `trip-weather` skill for the activity's date when it falls
+  within the forecast horizon.
 - Keep at least one unscheduled block per day unless the pace is "packed".

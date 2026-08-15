@@ -15,6 +15,7 @@ and fall back to web search (clearly marked as estimates) otherwise.
 | Activities | Viator, Veltra Activities, Super.com, AllTrails, lastminute.com, Tripadvisor | `find-activities`, `on-trip-concierge` | Viator/Veltra for tours and experiences; AllTrails for hiking and outdoors (incl. trail weather); lastminute.com for imminent deals |
 | Dining | Resy, Uber Eats, Tripadvisor | `find-dining`, `on-trip-concierge` | Resy for reservations, Uber Eats for delivery, Tripadvisor for reviews |
 | Getting around | Uber | `on-trip-concierge` | Ride estimates between two points, and rides on request |
+| Weather | Vaisala Xweather | `trip-weather`, and consulted by `plan-trip`, `manage-itinerary`, `find-activities`, `trip-checklists`, `on-trip-concierge` | Forecast, current conditions and severe-weather alerts turn into rainy-day backups, real packing lists and live in-the-moment calls; forecast horizon is roughly 15 days, beyond which skills fall back to seasonal norms via web search |
 | Calendar | Google Calendar | `sync-calendar` | Push flights, bookings and the day-by-day plan into your calendar |
 
 ## Search-only by design

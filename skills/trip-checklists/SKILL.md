@@ -19,8 +19,9 @@ Produce a tailored packing list and a pre-trip checklist, saved to
 
 Tailor to the actual trip, not a generic template:
 
-- **Weather**: check the destination forecast (or seasonal norms) for the
-  travel dates before writing the list.
+- **Weather**: use the `trip-weather` skill — a live forecast for travel
+  dates within its horizon, seasonal norms beyond it — before writing the
+  list.
 - **Activities**: mine `itinerary.md` — hiking booked means boots; snorkelling
   means swimwear and reef-safe sunscreen; a smart dinner means one smart
   outfit.
@@ -44,8 +45,8 @@ Time-ordered, with deadlines where they exist:
   itinerary notes.
 - **2 weeks before**: online check-in windows, currency, prescriptions,
   vaccinations if relevant.
-- **A few days before**: weather re-check, download offline maps, print or
-  save tickets, arrange pet/plant/home cover.
+- **A few days before**: weather re-check via `trip-weather`, download
+  offline maps, print or save tickets, arrange pet/plant/home cover.
 - **Day before**: check in online, charge devices, confirm transfer times.
 
 ## Care points

@@ -71,6 +71,10 @@
     "Turkish Airlines": {
       "type": "http",
       "url": "https://mcp-app.turkishtechlab.com/mcp"
+    },
+    "Vaisala Xweather": {
+      "type": "http",
+      "url": "https://mcp.api.xweather.com/mcp"
     }
   }
 }

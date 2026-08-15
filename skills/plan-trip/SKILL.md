@@ -98,6 +98,11 @@ it in conversation. Keep the day-by-day plan realistic: respect opening hours,
 travel time between places, jet lag on day one, and the traveller's stated
 pace.
 
+Before finalising, check the `trip-weather` skill for the travel dates — a
+live forecast if they fall within the connector's horizon, otherwise seasonal
+norms — so rainy-day backups and pacing account for real conditions rather
+than being generic.
+
 ## Business trip mode
 
 When the trip is for work (template, phrasing, or a conference/meeting is

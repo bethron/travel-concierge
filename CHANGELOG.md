@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.8.0
+- trip-weather skill: Vaisala Xweather-backed forecast, current conditions
+  and severe-weather alerts turned into decisions — rainy-day backups during
+  planning, forecast-informed packing lists, and live in-the-moment calls
+  on-trip ("it's raining, what now")
+- Added Vaisala Xweather connector (19th official connector)
+- Wired weather checks into plan-trip, manage-itinerary, find-activities,
+  trip-checklists and on-trip-concierge
+- Evaluated Glovo and StubHub for MCP connectors: neither has an official
+  public MCP server yet (only unofficial third-party scrapers) — skipped
+  pending an official release, to keep the "official connectors only" posture
+
 ## 0.7.0
 - fun-facts skill: surprising "did you know?" destination trivia, tailored
   to the trip's flavour (gastronomy, adventure, culture, family, business);

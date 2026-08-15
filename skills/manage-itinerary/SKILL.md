@@ -39,7 +39,8 @@ Sequencing rules:
 - Final day: nothing after the required departure for the airport
   (check-out time, transfer, check-in cut-off).
 - Leave breathing room per the stated pace; mark one flexible backup
-  (rainy-day option) somewhere in the plan.
+  (rainy-day option) somewhere in the plan — check `trip-weather` and
+  prioritise the backup on whichever day actually shows a rain/storm signal.
 
 ## Refining interactively
 

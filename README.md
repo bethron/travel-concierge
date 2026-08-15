@@ -30,6 +30,9 @@ changes.
   museum to Tuesday", "we land at 2pm now" — kept in a living file.
 - **Track the budget** against your ceiling, with warnings before you
   overshoot; get tailored **packing lists** and pre-trip checklists.
+- **Weather-aware planning** — a live Vaisala Xweather forecast (or seasonal
+  norms further out) turns into real rainy-day backups and a packing list
+  that matches what's actually coming, not a generic template.
 - **Sync to Google Calendar** and **export** a polished Word or PDF itinerary.
 - **Watch fares** you're not ready to book — a watchlist re-checked on
   demand, with honest book-now-or-wait advice from real price history.
@@ -54,8 +57,9 @@ changes.
 - "We're hungry" → a Resy-checked table nearby, Tripadvisor-vetted picks,
   or what Uber Eats can deliver to the hotel door — order placed by you in
   the app.
-- "It's raining / the tour got cancelled" → an instant replacement that fits
-  the slot, and the itinerary file updated to match reality.
+- "It's raining / the tour got cancelled" → current conditions and the
+  next-few-hours outlook from Vaisala Xweather, an instant replacement that
+  fits the slot, and the itinerary file updated to match reality.
 
 ## Skills
 
@@ -68,6 +72,7 @@ changes.
 | `find-dining` | "Find a table for two on Friday", "what can we get delivered?" |
 | `manage-itinerary` | "Swap day 2 and day 3", "show me the plan" |
 | `on-trip-concierge` | "We're here and have a free evening — ideas?" |
+| `trip-weather` | "Will it rain Tuesday?", "It's pouring — what now?" |
 | `trip-budget` | "Are we still under £2,000?" |
 | `monitor-fares` | "Watch this fare and tell me if it drops" |
 | `fun-facts` | "Did you know anything cool about Kyoto?" |
@@ -86,18 +91,18 @@ changes.
 
 ## Connectors
 
-Travel Concierge uses **18 official, publicly available connectors** — no API keys
+Travel Concierge uses **19 official, publicly available connectors** — no API keys
 to manage; each prompts you to sign in on first use:
 
 Booking.com · Expedia · Super.com · lastminute.com · DirectBooker ·
 Tripadvisor · Wyndham Hotels and Resorts · Otto Travel · Kiwi.com · Ryanair ·
 Turkish Airlines · Viator · Veltra Activities · AllTrails · Resy · Uber ·
-Uber Eats · Google Calendar
+Uber Eats · Google Calendar · Vaisala Xweather
 
 You don't need them all — and you shouldn't start with them all, or you'll
 face a wall of sign-in prompts. **Start with five**: Booking.com, Kiwi.com,
 Viator, Tripadvisor and Google Calendar cover most trips; connect the rest
-when a skill asks for them (deals, dining, rides, loyalty). Skills
+when a skill asks for them (deals, dining, rides, loyalty, weather). Skills
 use whatever is connected and say so when a useful one is missing. See [CONNECTORS.md](CONNECTORS.md) for the category
 map and alternatives — and the plugin's search-only posture: no connector
 ever spends money in-chat.

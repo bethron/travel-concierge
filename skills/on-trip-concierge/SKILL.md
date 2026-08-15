@@ -28,7 +28,9 @@ Before suggesting anything, load the trip context so advice fits the moment:
    booked (do not double-book over a timed ticket).
 2. Read `trip-brief.md` and `budget.md` — tastes, party, remaining headroom.
 3. Establish where the traveller is (their location if shared, otherwise the
-   stay's neighbourhood) and the local time and weather (web search).
+   stay's neighbourhood) and the local time; check current conditions and the
+   next few hours via the `trip-weather` skill (Vaisala Xweather, or web
+   search if not connected).
 
 ## Spontaneity toolkit — pick the right connector for the ask
 
@@ -36,6 +38,7 @@ Before suggesting anything, load the trip context so advice fits the moment:
 |---|---|
 | "Something to do right now / tonight" | lastminute.com deals, Viator and Veltra same-day availability, plus free options nearby |
 | "A walk / hike / nature fix" | AllTrails — trails near the current location, with trail weather |
+| "It's raining" / "how hot will it get" / "is it safe to go out" | `trip-weather` skill — current conditions and next-few-hours outlook to inform the call |
 | "We're hungry" / "book a table" | `find-dining` skill (Resy, Uber Eats, Tripadvisor) |
 | "Get us there" / "how far is it" | Uber — fetch a ride estimate (price, time) between the two points; hand off to the Uber app to request the ride |
 | "Is this place any good?" | Tripadvisor reviews |
@@ -52,7 +55,9 @@ Cancelled tour, rain, missed connection, closed venue:
 
 1. Acknowledge, then immediately propose a replacement that fits the same
    slot, weather and budget (rainy-day backups are already marked in the
-   itinerary — check there first).
+   itinerary — check there first). For weather-driven changes, pull the
+   next-few-hours outlook from `trip-weather` before choosing indoor vs
+   outdoor.
 2. Update `itinerary.md` via `manage-itinerary` so the file stays true.
 3. If money was lost or saved, reflect it in `budget.md`.
 
