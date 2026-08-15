@@ -3,6 +3,7 @@
   "owner": {
     "name": "Travel Concierge"
   },
+  "description": "Marketplace for the Travel Concierge Claude plugin — a one-stop trip planner and on-trip concierge.",
   "plugins": [
     {
       "name": "travel-concierge",

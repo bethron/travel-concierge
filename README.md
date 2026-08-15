@@ -109,15 +109,23 @@ ever spends money in-chat.
 
 ## Installation
 
-**Claude Code / Cowork (from this repo as a marketplace):**
+**Claude Cowork (phone, desktop or web) — no command line needed:**
+
+1. Open the Claude app and go to the **Cowork** tab.
+2. Open **Customize** → **Plugins**.
+3. Tap **Add marketplace** and enter `bethron/travel-concierge`.
+4. Find **Travel Concierge** in the list that appears and tap **Install**.
+
+**Claude Code (CLI):**
 
 ```
-/plugin marketplace add <your-github-user>/travel-concierge
+/plugin marketplace add bethron/travel-concierge
 /plugin install travel-concierge
 ```
 
-**Or from a packaged file:** download `travel-concierge.plugin` from Releases and
-open it in Claude Cowork.
+**Or from a packaged file:** download `travel-concierge.plugin` from
+[Releases](https://github.com/bethron/travel-concierge/releases) and add it
+via Customize → Plugins → the upload option.
 
 ## How a trip is organised
 
